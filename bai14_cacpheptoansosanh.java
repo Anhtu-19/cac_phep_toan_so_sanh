@@ -18,7 +18,14 @@ public class bai14_cacpheptoansosanh {
         System.out.println("ca hai la so chan" +(a%2==0 && b%2==0));
         System.out.println("co it nhat mot so chia het cho 2" +(a%2==0 || b%2==0));
         
+       
+        double diem = 7.5;
 
+        if (diem >= 5) {
+            System.out.println("Sinh vien dau");
+        } else {
+            System.out.println("Sinh vien rot");
+        }
     }
-    
 }
+
